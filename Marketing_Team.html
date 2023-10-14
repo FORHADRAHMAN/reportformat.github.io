@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Form</title>
+    <style>
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container form-container">
+        <h2 class="text-center">Marketing Team</h2>
+        <form>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="date">Date:</label>
+                    <input type="text" class="form-control" id="date">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="workType">ISP Name:</label>
+                    <select class="form-control" id="workType">
+                        <option value="option1">ABUZZ IT</option>
+                        <option value="option2">APCL</option>
+						<option value="option3">Belal IT</option>
+						<option value="option4">BTSL</option>
+						<option value="option5">HK Online</option>
+						<option value="option6">Pan M Tech</option>
+						<option value="option7">Romance Cable Network</option>
+						<option value="option8">Sinthia Telecom</option>
+						<option value="option9">Skyview Online</option>
+						<option value="option10">Tahoe</option>
+						<option value="option11">Innovative Online Limited</option>
+						<option value="option12">Fiber@Home Global</option>
+						<option value="option13">Jhanker-IT</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="resellerName">Reseller Name:</label>
+                    <input type="text" class="form-control" id="resellerName">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="subResellerName">Sub-Reseller Name:</label>
+                    <input type="text" class="form-control" id="subResellerName">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="scrId">SCR ID:</label>
+                    <input type="text" class="form-control" id="scrId">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="workType">Work Type:</label>
+                    <select class="form-control" id="workType">
+                        <option value="option1">New Reseller</option>
+                        <option value="option2">New Sub-Reseller</option>
+						<option value="option2">New User add</option>
+						<option value="option2">Shifting</option>
+						<option value="option2">Upgradation</option>
+						<option value="option2">New ISP</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="subscribers">Subscribers:</label>
+                    <input type="text" class="form-control" id="subscribers">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="iptxPOC">IPTx POC:</label>
+                    <input type="text" class="form-control" id="iptxPOC">
+                </div>
+            </div>
+
+			<div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="clientPOC">Client POC:</label>
+                    <input type="text" class="form-control" id="subscribers">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="marketingPOC">Marketing POC:</label>
+                    <input type="text" class="form-control" id="iptxPOC">
+                </div>
+            </div>
+
+			<div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="router">Router:</label>
+                    <select class="form-control" id="workType">
+                        <option value="option1">Yes</option>
+                        <option value="option2">No</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="switch">Switch:</label>
+                    <select class="form-control" id="workType">
+                        <option value="option1">Yes</option>
+                        <option value="option2">No</option>
+                    </select>
+                </div>
+            </div>
+
+			<div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="olt">OLT:</label>
+                    <select class="form-control" id="workType">
+                        <option value="option1">Yes</option>
+                        <option value="option2">No</option>
+                    </select>
+                </div>
+				<div class="form-group">
+					<label for="userList">User List:</label>
+					<input type="file" class="form-control-file" id="userList" name="userList">
+				</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
